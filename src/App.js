@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Timer from "./components/Timer/Timer";
+import Chrono from "./components/Chrono/Chrono";
 
 function App() {
   return (
     <div className="App">
-      <Timer time={3620000} />
+      <Chrono />
     </div>
   );
 }
